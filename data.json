@@ -1,0 +1,20 @@
+{
+    "features": [
+        {"title": "Feature 1", "description": "Description of feature 1."},
+        {"title": "Feature 2", "description": "Description of feature 2."},
+        {"title": "Feature 3", "description": "Description of feature 3."}
+    ],
+    "testimonials": [
+        {"quote": "This app changed my life!", "user": "User 1"},
+        {"quote": "Incredible features and easy to use.", "user": "User 2"},
+        {"quote": "I highly recommend this app.", "user": "User 3"}
+    ],
+    "pricing": [
+        {"plan": "Basic", "price": "$9.99/month"},
+        {"plan": "Pro", "price": "$19.99/month"},
+        {"plan": "Premium", "price": "$29.99/month"}
+    ]
+}
+
+
+  

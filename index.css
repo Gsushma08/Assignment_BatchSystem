@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.headline {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.subheadline {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+    padding: 15px 30px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.primary-btn {
+    background: #0056b3;
+    color: white;
+}
+
+.secondary-btn {
+    background: #ffffff;
+    color: #0056b3;
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.features-grid, .gallery-grid, .testimonials-grid, .pricing-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feature, .testimonial, .pricing-plan {
+    flex: 1 1 calc(33.333% - 20px);
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature h3, .testimonial .user, .pricing-plan h3 {
+    margin-top: 0;
+}
+
+.feature img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.gallery-grid img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .features-grid, .gallery-grid, .testimonials-grid, .pricing-grid {
+        flex-direction: column;
+    }
+}
